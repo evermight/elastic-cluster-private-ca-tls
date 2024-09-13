@@ -10,8 +10,6 @@ O = MyCompany
 OU = MyDivision
 CN = ##FQDN##
 [v3_req]
-keyUsage = critical, digitalSignature, keyAgreement
-extendedKeyUsage = serverAuth
 subjectAltName = @alt_names
 [alt_names]
 DNS.1 = ##FQDN##
